@@ -20,7 +20,7 @@ A simple, user-friendly web application to monitor basic health vitals like hear
 ---
 
 ## 🚀 Demo
->  [Live Demo](https://Meghasree07.github.io/health-monitoring-system)
+>  [Live Demo](https://Meghasree07.github.io/Health-monitoring-system)
 
 ---
 
