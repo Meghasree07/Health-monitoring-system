@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Health Monitoring System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Health Monitoring System</h1>
+    
+    <form id="healthForm">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="number" id="age" placeholder="Age" required>
+
+  <label for="heartRate">Heart Rate (bpm) <small>(Normal: 60–100 bpm)</small></label>
+  <input type="number" id="heartRate" placeholder="Heart Rate (bpm)" required>
+
+  <label for="temperature">Body Temperature (°C) <small>(Normal: 36.1–37.2 °C)</small></label>
+  <input type="number" step="0.1" id="temperature" placeholder="Body Temperature (°C)" required>
+
+  
+
+  <label for="oxygen">Oxygen Saturation (SpO₂ %) <small>(Normal: 95–100%)</small></label>
+<input type="number" id="oxygen" placeholder="Oxygen Saturation (%)" required>
+
+<label for="sugar">Blood Sugar (mg/dL) <small>(Normal: 70–140 mg/dL)</small></label>
+<input type="number" id="sugar" placeholder="Blood Sugar (mg/dL)" required>
+
+<button type="submit">Check Health</button>
+</form>
+    <div id="result"></div>
+    <canvas id="healthChart" width="400" height="200"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
